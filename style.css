@@ -1,0 +1,140 @@
+head .img{
+    border: 2px solid rebeccapurple;
+    border-radius: 300px;
+
+}
+
+nav div.logo{
+    display: flex;
+    width: 300px;
+    gap: 20px;
+}
+nav div.logo .badge {
+    background: rgb(126, 12, 57) ;
+    width: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 50px;   
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30pt;
+    position: fixed;
+    right: auto;
+    left: auto;
+    top: 0%;
+    margin: auto;
+    background: rgb(202, 150, 121);
+    width: 80%;
+    border-radius: 20px;
+}
+nav div.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    font-size: 20pt;
+    align-items: center; 
+}
+nav .menu ul a {
+    color: black;
+    text-decoration: none;
+}
+li#style_contact{
+    padding: 10px;
+    border-radius: 15px;
+    background: rgb(126, 12, 57);
+    color: rgb(212, 203, 203);
+}
+li#style_contact a{
+    color: white;
+}
+div.nom h1{
+    font-size: 35pt;
+     color: rgb(126, 12, 57);
+}
+h6{
+    font-size: 30pt;
+    text-decoration: underline;
+}
+div.nom p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+    text-align: justify;
+}
+div.container{
+    width: 80%;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.presentation{
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+div.nom{
+    width: 50%;
+}
+div.presentation img{
+    height: 400px;
+    width: 400px;
+    border: 1px solid  rgb(126, 12, 57);
+    border-radius: 30px;
+    box-shadow: 4px 4px 0 0 gray ;
+}
+button{
+    padding: 10px 20px;
+    width:max-content;
+    background: rgb(126, 12, 57);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 15pt;
+}
+section.projet{
+    padding-top: 100px;
+}
+section.projet h1{
+    color:brown ;
+    text-align: center;
+    font-size: 30pt;
+    text-decoration: underline;
+}
+section.projet h3{
+    text-align: center;
+    font-size: 15pt;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 40px;
+}
+div.projet_container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+div.projet_container div.card_projet{
+    width: 400px;
+    border: 1px solid brown;
+    border-radius: 20px;
+}
+div.projet_container p{
+    padding: 15px;
+    margin-top: 0%;
+    margin: 0%;
+}
+
+div.projet_container img{
+ width: 100%;
+ border-radius: 20px 20px 0 0;
+}
+div.projet_container div.button{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    font-size: 25pt;
+    margin: auto;
+}
+
