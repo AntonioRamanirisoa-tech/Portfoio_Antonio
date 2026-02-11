@@ -3,7 +3,11 @@ head .img{
     border-radius: 300px;
 
 }
-
+body{
+    background: url(./Image/bg2.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+}
 nav div.logo{
     display: flex;
     width: 300px;
@@ -26,7 +30,7 @@ nav{
     left: auto;
     top: 0%;
     margin: auto;
-    background: rgb(202, 150, 121);
+    background: rgb(12, 6, 67);
     width: 80%;
     border-radius: 20px;
 }
@@ -38,7 +42,7 @@ nav div.menu ul{
     align-items: center; 
 }
 nav .menu ul a {
-    color: black;
+    color: rebeccapurple;
     text-decoration: none;
 }
 li#style_contact{
@@ -78,10 +82,10 @@ div.nom{
     width: 50%;
 }
 div.presentation img{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     border: 1px solid  rgb(126, 12, 57);
-    border-radius: 30px;
+    border-radius: 250px;
     box-shadow: 4px 4px 0 0 gray ;
 }
 button{
@@ -137,9 +141,14 @@ section.Competences{
     padding-top: 100px;
 }
 div.flA{
- width: 80%;
+    width: 80%;
     margin: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+div.flA img{
+    border-radius: 20px;
 }
 section.Competences h1{
    color:brown ;
@@ -149,7 +158,7 @@ section.Competences h1{
 }
 div.flA1{
     display: flex;
-    border: 1px solid red;
+    border: 1px solid rgb(247, 0, 255);
     border-radius: 20px;
 }
 div.flA1 img{
@@ -165,11 +174,26 @@ div.flA2 img{
     height: 300px;
     width: 300px;
 }
+main.Parcours{
+    padding-top: 100px;
+      width: 80%;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+main.Parcours h1{
+    color:brown ;
+    text-align: center;
+    font-size: 30pt;
+    text-decoration: underline;
+}
 footer{
     font-size: 15pt;
     margin: auto;
      padding-top: 100px;
 }
+
 div.bas_page{
     padding-top: 100px;
     width: 80%;
@@ -177,24 +201,73 @@ div.bas_page{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 div.bas_page h1{
-   color:brown ;
+    color:brown ;
     text-align: center;
     font-size: 30pt;
     text-decoration: underline;   
 }
-div.bp1{
+div.bp{
     display: flex;
-    border: 1px solid red;
-    gap: 150px;
+    border: 1px solid brown;
+    border-radius: 20px;
+    gap: 200px;
+    background: rgba(91, 14, 0, 0.085);
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+}
+div.bp div{
+    gap: 8px;
+}
+div.bp1 i{
+    width: 20px;
+    height: 20px;
+    font-size: 40pt;
+    text-align: center;
 }
 div.bp2{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    justify-content: space-between;  
+}
+div.bp2 div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 5px;   
+}
+div.bp2 input{
+    width: 500px;
+    height: 30px;
+    border: 1px solid brown;
+    border-radius: 5px;
+    outline: none;
+}
+div.bp2 .btn_action{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: end;
+}
+div.Localisation{
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+    margin: auto;
+    margin-top: 100px;
+    border: 0.5px solid rebeccapurple;
+    border-radius: 20px;
+    padding:80px
+    
+}
+div.Localisation h2{
+    text-decoration: underline;
+    font-size: 29pt;
 }
 div.Localisation img{
     height: 300px;
-    width: 300px;
+    width: 600px;
+    border-radius: 20px;
 }
 
 
