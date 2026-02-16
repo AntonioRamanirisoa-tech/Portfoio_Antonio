@@ -261,6 +261,9 @@ main.Parcours{
     justify-content: center;
     text-align: center;
 }
+main.Parcours fieldset{
+    border-radius: 20px;
+}
 main.Parcours legend{
     color:brown ;
     font-size: 30pt;
@@ -321,26 +324,26 @@ div.bp1 i{
     font-size: 40pt;
     text-align: center;
 }
-div.bp2{
+form.bp2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;  
 }
-div.bp2 div{
+form.bp2 div{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     gap: 5px;   
 }
-div.bp2 input{
+form.bp2 input{
     width: 500px;
     height: 30px;
     border: 1px solid brown;
     border-radius: 5px;
     outline: none;
 }
-div.bp2 .btn_action{
+form.bp2 .btn_action{
     display: flex;
     flex-direction:row-reverse;
     justify-content: end;
@@ -366,3 +369,127 @@ div.Localisation img{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+    nav{
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav:hover ul{
+        display: flex !important;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none !important;
+    }
+    div.container{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    div.presentation{
+        flex-direction: column-reverse;
+        width: 100VW;
+        padding: 0;
+        margin: 2vw;
+        margin-top: 150px;
+    }
+    div.presentation .nom{
+        width: 100vw;
+
+    }
+    div.presentation h1{
+        width: 90%;
+        font-size: 7vw;
+    }
+    div.presentation p{
+        width: 90%;
+        font-size: 3vw;
+        padding: 5px;
+    }
+    div.presentation img{
+        margin: auto;
+        width: 80%;
+        height: auto;
+    }
+    section.projet{
+        width: 100vw;
+    }
+    section.projet h1{
+        font-size: 5vw;
+    }
+    section.projet h3{
+        font-size: 3vw;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    div.projet_container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.Competences{
+        width: 100vw;
+    }
+    section.Competences h1{
+        font-size: 5vw;
+        text-transform: uppercase;
+    }
+    div.flA1, div.flA2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5px;
+    }
+    main.Parcours{
+        width: 100vw;
+    }
+    main.Parcours fieldset{
+        width: 90%;
+        margin: auto;
+    }
+
+    
+    main.Parcours .pA{
+        flex-direction: column;
+    }
+    footer{
+        width: 100vw;
+    }
+    div.bas_page{
+        width: 100vw;
+    }
+    div.bp{
+        width: 80%;
+        flex-direction: column;
+    }
+    form.bp2 input{
+        width: 100%;
+    }
+    div.Localisation{
+        width: 90%;
+        flex-direction: column;
+        padding: 5px;
+        margin: 10px auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+}
