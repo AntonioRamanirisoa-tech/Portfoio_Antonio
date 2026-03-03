@@ -121,6 +121,20 @@ div.nom p{
 div.nom p:focus-visible{
     animation: slideP 8s ease forwards;
 }
+div.nom .CV{
+    width: 200px;
+    border: 3px solid orange;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: bisque;
+}
+div.nom .CV a{
+    font-style: italic;
+    font-size: 15pt;
+    color: brown;
+}
 div.container{
     width: 80%;
     margin: auto;
